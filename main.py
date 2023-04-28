@@ -39,5 +39,5 @@ while True:
         ctypes.windll.user32.SystemParametersInfoW(20, 0, night_wallpaper, 0)
         print(f"{night}Night wallpaper set at {time.strftime('%H:%M:%S')}{end}")
 
-    # wait for 10 seconds before checking the time again
-    time.sleep(10)
+    # wait for 30 seconds before checking the time again
+    time.sleep(30)
